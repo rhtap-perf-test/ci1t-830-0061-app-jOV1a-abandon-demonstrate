@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-lsxi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0061-tenant/ci1t-830-0061-app/devfile-sample-lsxi@sha256:82f530488b4eeb4f75130a083d6146a4f0a7a5eb96e93bff53112441eeca2929
         name: my-nodejs
         ports:
         - containerPort: 3001
